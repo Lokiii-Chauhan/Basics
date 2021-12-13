@@ -1,0 +1,16 @@
+dict = {'a': [1, 2, 3],
+        'b': 'Hello',
+        'c': True,
+        4: 'd'}
+
+my_list = [{'a': [1, 2, 3],
+            'b': 'Hello',
+            'c': True,
+            4: 'd'},
+           {'a': [4, 5, 6],
+            'b': 'Hello',
+            'c': True,
+            4: 'd'}
+           ]
+
+print(my_list[0]['a'][2])
